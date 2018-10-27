@@ -29,6 +29,6 @@ steps:
 
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: 'myazureconnect'
+    azureSubscription: 'myazureconnectnow'
     WebAppName: 'mywebapprocks'
     Package: $(System.ArtifactsDirectory)/**/*.zip
